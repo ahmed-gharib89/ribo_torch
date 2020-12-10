@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name = 'ribo_torch',
-      version = '0.1',
+      version = '0.2',
       description = 'a package for creating, training and predecting using torchvision models',
       packages= ['ribo_torch'],
       author = 'Ahmed Gharib',

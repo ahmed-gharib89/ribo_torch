@@ -498,3 +498,6 @@ class Classifier():
         """
         with open(file_path, 'r') as f:
             self.cat_to_name = json.load(f)
+
+    def __str__(self):
+        return f"Class = Classifier, device = {self.device}"
